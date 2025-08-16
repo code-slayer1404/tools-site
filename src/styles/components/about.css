@@ -1,0 +1,50 @@
+/* About Section */
+.about-section {
+    width: 100%;
+    padding: 2rem 0;
+    margin: 3rem 0;
+}
+
+.about-container {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--card-border);
+}
+
+.about-title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+}
+
+.about-content {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Dark Mode Adjustments */
+.dark-mode .about-container {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-container {
+        padding: 1.5rem;
+    }
+
+    .about-title {
+        font-size: 1.75rem;
+    }
+
+    .about-content {
+        font-size: 1rem;
+    }
+}

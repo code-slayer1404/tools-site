@@ -1,0 +1,46 @@
+/* Footer Styles */
+.site-footer {
+    background-color: var(--footer-bg);
+    color: var(--footer-text);
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Dark Mode Styles */
+:root {
+    --footer-bg: #1f2937;
+    /* gray-800 equivalent */
+    --footer-text: #f9fafb;
+    /* gray-50 equivalent */
+}
+
+.dark-mode .site-footer {
+    background-color: #111827;
+    /* darker shade for dark mode */
+    color: #e5e7eb;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-container {
+        padding: 0 1rem;
+    }
+
+    .footer-text {
+        font-size: 0.875rem;
+    }
+}
