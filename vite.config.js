@@ -11,5 +11,6 @@ export default defineConfig({
     rollupOptions: {
       external: ['pdfjs-dist/build/pdf.worker.entry']
     }
-  }
+  },
+  base: '/tools-site/'
 });
